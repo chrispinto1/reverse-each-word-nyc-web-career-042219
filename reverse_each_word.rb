@@ -3,5 +3,5 @@ def reverse_each_word(string)
   #binding.pry
  strings = string.split(' ')
  #return strings
- strings.unshift
+ return strings.unshift
 end
